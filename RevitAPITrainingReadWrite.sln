@@ -7,6 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingWriteToCSV"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingReadToCSV", "RevitAPITrainingReadToCSV\RevitAPITrainingReadToCSV.csproj", "{0FB21C38-BEE3-4DC9-BB5A-356A02CDFFE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingWriteToExcel", "RevitAPITrainingWriteToExcel\RevitAPITrainingWriteToExcel.csproj", "{5416FFEB-637E-46EA-AAB3-E20B905F5B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingReadToExcel", "RevitAPITrainingReadToExcel\RevitAPITrainingReadToExcel.csproj", "{187CE849-FB23-4A9F-ACA5-051C6B676E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingWriteToJSON", "RevitAPITrainingWriteToJSON\RevitAPITrainingWriteToJSON.csproj", "{E28CA2A1-5437-4185-A0AC-4E0D4BA18039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingReadToJSON", "RevitAPITrainingReadToJSON\RevitAPITrainingReadToJSON.csproj", "{1C5C7696-C3B5-4CBA-8179-3E5881A39E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4.1", "HW4.1\HW4.1.csproj", "{00A454AF-5E30-441D-AECC-F87943357EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4.2", "HW4.2\HW4.2.csproj", "{AE54823D-ACAA-4C7A-8B23-AFB5CDBCD040}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +33,30 @@ Global
 		{0FB21C38-BEE3-4DC9-BB5A-356A02CDFFE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FB21C38-BEE3-4DC9-BB5A-356A02CDFFE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FB21C38-BEE3-4DC9-BB5A-356A02CDFFE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5416FFEB-637E-46EA-AAB3-E20B905F5B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5416FFEB-637E-46EA-AAB3-E20B905F5B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5416FFEB-637E-46EA-AAB3-E20B905F5B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5416FFEB-637E-46EA-AAB3-E20B905F5B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187CE849-FB23-4A9F-ACA5-051C6B676E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187CE849-FB23-4A9F-ACA5-051C6B676E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187CE849-FB23-4A9F-ACA5-051C6B676E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187CE849-FB23-4A9F-ACA5-051C6B676E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28CA2A1-5437-4185-A0AC-4E0D4BA18039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28CA2A1-5437-4185-A0AC-4E0D4BA18039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28CA2A1-5437-4185-A0AC-4E0D4BA18039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28CA2A1-5437-4185-A0AC-4E0D4BA18039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5C7696-C3B5-4CBA-8179-3E5881A39E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5C7696-C3B5-4CBA-8179-3E5881A39E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5C7696-C3B5-4CBA-8179-3E5881A39E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5C7696-C3B5-4CBA-8179-3E5881A39E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A454AF-5E30-441D-AECC-F87943357EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A454AF-5E30-441D-AECC-F87943357EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A454AF-5E30-441D-AECC-F87943357EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A454AF-5E30-441D-AECC-F87943357EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE54823D-ACAA-4C7A-8B23-AFB5CDBCD040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE54823D-ACAA-4C7A-8B23-AFB5CDBCD040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE54823D-ACAA-4C7A-8B23-AFB5CDBCD040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE54823D-ACAA-4C7A-8B23-AFB5CDBCD040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
