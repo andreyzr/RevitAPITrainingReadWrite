@@ -11,20 +11,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RevitAPITrainingReadWrite
+namespace RevitAPITrainingWriteToCSV
 {
     [Transaction(TransactionMode.Manual)]
     public class Main : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
+
             UIApplication uiapp = commandData.Application;
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Document doc = uidoc.Document;
 
-            string roomInfo=string.Empty;
+            string roomInfo = string.Empty;
 
-            var rooms=new FilteredElementCollector(doc)
+            var rooms = new FilteredElementCollector(doc)
                 .OfCategory(BuiltInCategory.OST_Rooms)
                 .Cast<Room>()
                 .ToList();
@@ -41,10 +42,10 @@ namespace RevitAPITrainingReadWrite
             var saveDialog = new SaveFileDialog
             {
                 OverwritePrompt = true,
-                InitialDirectory=Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                Filter="All files(*.*)|*.*",
-                FileName="roomInfo.csv",
-                DefaultExt=".csv"
+                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
+                Filter = "All files(*.*)|*.*",
+                FileName = "roomInfo.csv",
+                DefaultExt = ".csv"
             };
 
             string selectedFilePath = string.Empty;
@@ -53,14 +54,15 @@ namespace RevitAPITrainingReadWrite
                 selectedFilePath = saveDialog.FileName;
             }
 
-            if(string.IsNullOrEmpty(selectedFilePath))
+            if (string.IsNullOrEmpty(selectedFilePath))
             {
                 return Result.Cancelled;
             }
 
-            File.WriteAllText(selectedFilePath, roomInfo,Encoding.Unicode);
+            File.WriteAllText(selectedFilePath, roomInfo, Encoding.Unicode);
 
             return Result.Succeeded;
+
         }
     }
 }

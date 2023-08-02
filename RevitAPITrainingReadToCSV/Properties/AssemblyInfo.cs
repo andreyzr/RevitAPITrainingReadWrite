@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RevitAPITrainingReadWrite")]
+[assembly: AssemblyTitle("RevitAPITrainingReadToCSV")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RevitAPITrainingReadWrite")]
+[assembly: AssemblyProduct("RevitAPITrainingReadToCSV")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ff977d22-372e-4973-bebd-b5179b4489d7")]
+[assembly: Guid("0fb21c38-bee3-4dc9-bb5a-356a02cdffe2")]
 
 // Version information for an assembly consists of the following four values:
 //
